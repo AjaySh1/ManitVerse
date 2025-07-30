@@ -65,7 +65,7 @@ ManitVerse is a full-stack MERN (MongoDB, Express, React, Node.js) community pla
 Start both backend and frontend with:
 
 ```sh
-npm run dev
+npm start
 ```
 
 - Backend runs on [http://localhost:5000](http://localhost:5000)
