@@ -34,6 +34,7 @@ ManitVerse is a full-stack MERN (MongoDB, Express, React, Node.js) community pla
 
 2. **Install backend dependencies:**
    ```sh
+   cd server
    npm install
    ```
 
