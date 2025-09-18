@@ -4,7 +4,7 @@
   "description": "Community Website for Students",
   "main": "server.js",
   "scripts": {
-    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider node server",
+   "start": "NODE_OPTIONS=--openssl-legacy-provider node server.js"
     "server": "nodemon server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
@@ -24,7 +24,6 @@
     "mongoose": "^8.16.5",
     "nodemailer": "^7.0.5",
     "request": "^2.88.2",
-    "cross-env": "^10.0.0"
   },
   "devDependencies": {
     "concurrently": "^6.2.0",
